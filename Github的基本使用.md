@@ -13,6 +13,7 @@ git commit [file1] [file2] ... -m [message]//多个文件
 git add -all //提交所有已修改的文件到暂存区
 git push -u origin "main" //提交暂存区到main分支中
 git commit -am "提交新文件" && git push
+git add --all && git commit -m "从这里开始" && git push -u origin "main"//一条提交版
 
 
 ```
